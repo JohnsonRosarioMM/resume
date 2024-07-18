@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight:light;
+  font-style: normal;
+}
+.resume{
+    top: 50px;
+    position: relative;
+    height:1300px;
+    width: 850px;
+    border: 3px solid black;
+}
+.topic{
+    position: relative;
+    width: 900px;
+    height: 200px;
+}
+.title{
+    text-align: center;
+}
+.image{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    margin: 0 30px 0 20px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.line{
+    border: 1px solid black;
+}
+.dline{
+    border: 1px dashed black;
+}
+.content{
+    position: relative;
+    width: 900px;
+    height: 1100px;
+}
+.details{
+    width: 500px;
+    height: 1000px;
+    position: absolute;
+    right: 20px;
+    top: 200px;;
+    margin-left:10px;
+}
+.shade{
+    margin-right: 10px;
+    position:absolute;
+    left:0;
+    top:0;
+    width:300px;
+    height:1099px;
+    background-color: gainsboro;
+}
+.contact{
+    margin-left: 20px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:300px;
+    height:190px;
+}
+.skills{
+    margin-top: 0;
+    margin-left: 20px;
+    position: absolute;
+    top:190px;
+    width:300px;
+    height:180px;
+}
+.education{
+    margin-left: 20px;
+    position: absolute;
+    top:370px;
+    width:300px;
+    height:370px;
+}
+.language{
+    margin-left: 20px;
+    position: absolute;
+    top:740px;
+    width:300px;
+    height:200px;
+}
+.bar{
+    position:absolute;
+    left: 70px;
+    width: 150px;
+    border: 2px solid black;
+}
+.progress{
+    background-color: black;
+    height: 12px;
+}
+.role{
+    position: absolute;
+    left:0;
+    font-weight: bold;
+}
+.year{
+    position: absolute; 
+    right:0;
+    font-weight: light;
+}
+.left{
+    position:absolute;
+    left:0;
+}
+.right{
+    position:absolute;
+    right:0;
+}
